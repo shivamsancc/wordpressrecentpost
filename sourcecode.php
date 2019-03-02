@@ -7,7 +7,7 @@ function latest_postexams() {  ?>
         'numberposts' => 5, // Number of recent posts thumbnails to display
         'post_status' => 'publish' // Show only the published posts
     )); ?>
-    <!--------------------------shivam -1:22------------------------>
+    <!--------------------------Style Code------------------------>
 	<div style="width: 358px; height: 340px; background-color: #FFFABA;">
 		<marquee onMouseOver="this.stop()" onMouseOut="this.start()"vscrollamount="2"style="height: 100%;" direction="up">
 	<?php foreach($recent_posts as $post) : ?>
@@ -19,7 +19,7 @@ function latest_postexams() {  ?>
 			</marquee><br>
 			
 	</div>
-	<!--------------------------shivam -1:22------------------------>
+	<!--------------------------Style Code------------------------>
     
 <?php 
    
